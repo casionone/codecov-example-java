@@ -9,14 +9,14 @@ public class HelloWorldTest {
 
 	private HelloWorld subject;
 
-// 	@Before
-// 	public void setup() {
-// 		subject = new HelloWorld();
-// 	}
+	@Before
+	public void setup() {
+		subject = new HelloWorld();
+	}
 
-// 	@Test
-// 	public void testGetMessage() {
-// 		assertEquals("Hello World!", subject.getMessage(false));
-// 	}
+	@Test
+	public void testGetMessage() {
+		assertEquals("Hello World!", subject.getMessage(false));
+	}
 
 }
